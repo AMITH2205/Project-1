@@ -1,0 +1,33 @@
+/* SidebarMenu.css */
+
+.menu-item {
+    transition: transform 0.3s ease; /* Add smooth transition */
+    margin-bottom: 12rem;
+  }
+  
+  .menu-item:hover {
+    transform: perspective(210px) rotateY(10deg); /* Apply 3D rotation on hover */
+  }
+  
+  .side:hover {
+    border-left: 5px solid rgb(39, 6, 226); /* Add a black border to the left side of the menu item on hover */
+    padding-left: 10px; /* Add padding to create space between the border and the icon */
+  }
+  
+  .side.active {
+    background-color: #f0f0f0; /* Change background color for active item */
+    border-left: 5px solid #007bff; /* Add left border for active item */
+    padding-left: 10px;
+}
+.menu-item-text {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.col {
+  background-color: whitesmoke;
+}
+
+.side {
+  margin-bottom: 30px;
+  color: black
+}

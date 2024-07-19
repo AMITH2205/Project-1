@@ -1,0 +1,18 @@
+.navbar-icon {
+    width: 24px; /* Adjust the width of all icons */
+    height: 24px; /* Adjust the height of all icons */
+  }
+  
+  .me-3 {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem; /* Adjust the margin between icons */
+  }
+  
+.row1{
+  background-color: antiquewhite;
+}
+
+.nav{
+  margin-top: 10px;
+}
